@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyQuotesWebUi", "CurrencyQuotesWebUi\CurrencyQuotesWebUi.csproj", "{22568B77-C069-4079-832F-F556F61C996D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyQuotesCore", "..\CurrencyQuotesCore\CurrencyQuotesCore.csproj", "{CA8B0157-9EDE-419A-8E3A-8496217B7D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22568B77-C069-4079-832F-F556F61C996D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22568B77-C069-4079-832F-F556F61C996D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22568B77-C069-4079-832F-F556F61C996D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22568B77-C069-4079-832F-F556F61C996D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA8B0157-9EDE-419A-8E3A-8496217B7D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA8B0157-9EDE-419A-8E3A-8496217B7D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA8B0157-9EDE-419A-8E3A-8496217B7D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA8B0157-9EDE-419A-8E3A-8496217B7D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {328647F3-C13E-4315-BB27-E177D0DE1CB8}
+	EndGlobalSection
+EndGlobal
