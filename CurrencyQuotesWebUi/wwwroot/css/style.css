@@ -1,0 +1,97 @@
+﻿html, body {
+    height: 100%;
+    background: #3b3f47;
+}
+
+.container {
+    height: 100%;
+}
+
+.main-form {
+    text-align: center;
+    box-shadow: 0px 0px 20px #030303;
+}
+
+.form-header {
+    padding: 10px;
+    text-transform: uppercase;
+    margin: -1px -1px 20px -1px;
+    background: #4b485c;
+    border-bottom: 1px solid #dadada;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 2px 2px 0px 0px;
+}
+
+.form-table { }
+
+#table-wrapper {
+    position: relative;
+    margin: 20px 15px;
+}
+
+#table-scroll {
+    height: 350px;
+    overflow: auto;
+}
+
+#table-wrapper table {
+    width: 100%;
+    border: 0px solid #000 !important;
+}
+
+#table-wrapper table * {
+    font-size: 0.8rem;
+    padding: 8px;
+}
+
+#table-wrapper table thead th .text {
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+    max-height: 200px;
+    width: 35%;
+    border: 1px solid red;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.button {
+    width: 47%;
+}
+
+.find-field-wrapper {
+    background: #f0f0f0;
+    padding: 15px;
+    border-top: 1px solid #dadada;
+}
+
+.find-field {
+    margin-bottom: 0px !important;
+}
+
+.table-bordered thead th, .table-bordered thead td {
+    border-bottom-width: 1px;
+    background: #007bff;
+    border-color: #006add;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 2px;
+}
+
+.ui-selectable-helper {
+    position: absolute;
+    z-index: 100;
+    border: 1px solid #CCC;
+    background: #333;
+}
+
+#selectable-table .ui-selected {
+    background: #F0E6FF;
+    color: #000000;
+}
