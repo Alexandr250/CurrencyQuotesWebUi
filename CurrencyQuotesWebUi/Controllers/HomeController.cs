@@ -9,8 +9,7 @@ using CurrencyQuotesCore;
 namespace CurrencyQuotesWebUi.Controllers {
     public class HomeController : Controller {
         public IActionResult Index() {
-            ExchangeRatesLocalRepository repository = new ExchangeRatesLocalRepository( new System.IO.FileInfo( "daily.json" ) );
-            return View( repository.WithFilter( null ) );
+            return View();
         }
     }
 }
