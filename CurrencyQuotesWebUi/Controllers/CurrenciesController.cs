@@ -16,19 +16,13 @@ namespace CurrencyQuotesWebUi.Controllers {
             return repository.WithFilter( null );
         }
 
-        // GET: api/<controller>
+        // GET: api/<controller>/filter
         [HttpGet( "{filter}" )]
         public IEnumerable<Currency> Get( string filter ) {
             ExchangeRatesLocalRepository repository = new ExchangeRatesLocalRepository( new System.IO.FileInfo( "daily.json" ) );
             return repository.WithFilter( filter );
         }
-
-        // GET api/<controller>/5
-        //[HttpGet( "{id}" )]
-        //public string Get( int id ) {
-        //    return "value";
-        //}
-
+        
         // POST api/<controller>
         [HttpPost]
         public void Post( [FromBody]string value ) {
